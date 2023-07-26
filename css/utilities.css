@@ -88,6 +88,10 @@ a.button:hover {
   gap: 16px;
 }
 
+.footer.text {
+  bottom: 100;
+}
+
 /* Link Styling */
 a.no-underline {
   text-decoration: none;

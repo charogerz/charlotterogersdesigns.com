@@ -16,7 +16,7 @@
 	</head>
 	<body>
     <!-- NAVBAR -->
-    <div class="navbar">
+    <div class="navbar" id="navbar">
       <a class="nav-title-link" href="./index.html">
         <span class="nav-title">Charlotte Rogers | Design Portfolio</span>
         <a class="button" href="./assets/files/Resume.pdf" download="Resume.pdf">
@@ -27,6 +27,23 @@
         </a>
       </a>
     </div>
+
+    <script>
+      window.onscroll = function() {
+         scroll();
+      };
+      
+      function scroll() {
+         if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+         ) {
+            document.getElementById("navbar").style.top = "-50px";
+         } else {
+            document.getElementById("navbar").style.top = "0";
+         }
+       }
+   </script>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">

@@ -89,7 +89,8 @@ a.button:hover {
 }
 
 .footer.text {
-  bottom: 100;
+  bottom: 5%;
+  position: fixed;
 }
 
 /* Link Styling */

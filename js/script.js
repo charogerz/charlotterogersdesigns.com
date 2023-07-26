@@ -4,9 +4,9 @@ if (document.getElementById('my-work-link')) {
   })
 }
 
-var prevScrollpos = window.pageYOffset;
+var prevScrollpos = window.scrollY;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
+  var currentScrollPos = window.scrollY;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
   } else {

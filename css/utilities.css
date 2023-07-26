@@ -26,17 +26,22 @@ a.icon-link:hover {
 
 /* Navbar Styling */
 
-.navbar {
+.nav-down {
   width: 100%;
   padding: 30px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  transition: top 0.2s ease-in-out;
   top: 0;
   left: 0;
   background: rgb(102,153,204,.65);
   background: linear-gradient(180deg, rgba(102,153,204,0.75) 0%, rgba(255,255,255,.75) 100%);
+}
+
+.nav-up {
+  top: -50px
 }
 
 .nav-title-link {
@@ -50,7 +55,7 @@ a.icon-link:hover {
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
-  .navbar {
+  .nav-down {
     padding: 20px 20px;
     background-color: white
   }

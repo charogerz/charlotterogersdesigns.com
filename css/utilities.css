@@ -35,6 +35,8 @@ a.icon-link:hover {
   position: fixed;
   top: 0;
   left: 0;
+  background: rgb(0,102,204);
+  background: linear-gradient(180deg, rgba(0,102,204,0.75) 0%, rgba(255,255,255,1) 100%);
 }
 
 .nav-title-link {

@@ -4,13 +4,15 @@ if (document.getElementById('my-work-link')) {
   })
 }
 
-var prevScrollpos = window.scrollY;
-window.onscroll = function() {
-  var currentScrollPos = window.scrollY;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
+var lastScrollTop;
+navbar = document.getElementById('navbar');
+window.addEventListener('scroll',function(){
+var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+if(scrollTop > lastScrollTop){
+navbar.style.top='-80px';
 }
+else{
+navbar.style.top='0';
+}
+lastScrollTop = scrollTop;
+});

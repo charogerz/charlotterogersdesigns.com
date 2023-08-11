@@ -29,20 +29,16 @@
     </div>
 
     <script>
+      var prevScrollPos = window.pageYOffset;
       window.onscroll = function() {
-         scroll();
-      };
-      
-      function scroll() {
-         if (
-            document.body.scrollTop > 45 ||
-            document.documentElement.scrollTop > 45
-         ) {
-            document.getElementById("navbar").style.top = "-90px";
-         } else {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollPos > currentScrollPos) {
             document.getElementById("navbar").style.top = "0";
+         } else {
+            document.getElementById("navbar").style.top = "-95px";
          }
-       }
+         prevScrollPos = currentScrollPos;
+      };
    </script>
 
     <!-- MAIN PAGE CONTENT -->

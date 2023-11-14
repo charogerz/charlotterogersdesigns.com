@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     <link rel="icon" href="../assets/images/pixel-headshot.png" />
+     <title>Charlotte Rogers | Design</title>
+    <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Charlotte Rogers | Design Portfolio</span>
+        <a class="button" href="./assets/files/Resume.pdf" download="Resume.pdf">
+          <span class="button-text">Download Resume</span>
+        </a>
+        <a class="button" href="mailto:charogerz@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <script>
+      var prevScrollPos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollPos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+         } else {
+            document.getElementById("navbar").style.top = "-95px";
+         }
+         prevScrollPos = currentScrollPos;
+      };
+   </script>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">          
+        <div class="main-title">Color Calculator</div>
+        <div class="body-text">A brief exploration of how to code an unconventional calculator in python</div>
+        <image class="project-header-image" src="../assets/images/creativecalc.gif">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details</div>
+        <div class="project-details-content">
+          <div class="body-text">This was an early python project of mine that I enjoyed. I was tasked with creating a "creative calculator" and decided, as an artist, to encode colors into these set of possible equations.</div>
+          <div class="body-text">You can find the code for this project on my GitHub <a href="https://github.com/charogerz/python-projects/tree/main/Creative%20Calculator">HERE</a>.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">            
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/calccodecapture.png" class="gallery-image">
+              <span class="image-caption"><i>A snippet of code from this project highlighting the introductory and error messages I created for this calculator.</i></span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/CodeNotes1.png" class="gallery-image">
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/CodeNotes2.png" class="gallery-image">
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/CodeNotes3.png" class="gallery-image">
+              <span class="image-caption"><i>Shading around the center is used to create a dark tone for the viewer and highlight the difference between the outer lines of data and the center bubbles.</i></span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <div class="footer.text">Created and hosted by me.</div>
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/">
+        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" target="_blank" href="https://github.com/charogerz">
+        <image src="../assets/icons/github.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" href="mailto:charogerz@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>

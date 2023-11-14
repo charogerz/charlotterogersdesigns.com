@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-     <link rel="icon" href="../assets/images/pixel-headshot.png" />
-     <title>Charlotte Rogers | Design</title>
+  <header>
+    <meta charset="utf-8">
+  
+    <link rel="icon" href="./assets/images/pixel-headshot.png" />
+    <title>Charlotte Rogers | Design</title>
     <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+  
+    <script defer src="./js/script.js"></script>
+  </header>
+<main>
 
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
-
-		<script defer src="../js/script.js"></script>
-	</head>
-	<body>
+  <body>
 
     <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="../index.html">
-        <span class="nav-title">Charlotte Rogers | Design Portfolio</span>
+    <div class="navbar" id="navbar">
+      <a class="nav-title-link" href="./index.html">
+        <h1 class="nav-title">Charlotte Rogers | Design Portfolio</h1>
         <a class="button" href="./assets/files/Resume.pdf" download="Resume.pdf">
           <span class="button-text">Download Resume</span>
         </a>
@@ -30,16 +33,16 @@
 
     <script>
       var prevScrollPos = window.pageYOffset;
-      window.onscroll = function() {
+      window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollPos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-         } else {
-            document.getElementById("navbar").style.top = "-95px";
-         }
-         prevScrollPos = currentScrollPos;
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-95px";
+        }
+        prevScrollPos = currentScrollPos;
       };
-   </script>
+    </script>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
@@ -47,52 +50,65 @@
       <!-- PROJECT HEADER -->
       <div id="project-header">
         <div class="main-title"><i>S.A.N.E. and S.A.F.E.: Information and Support in North Carolina</i></div>
-        <div class="body-text">A zine resource created for survivors of sexual assault in North Carolina as an alternative to traditional resources</div>
-        <image class="project-header-image" src="../assets/images/zine-preview.png">
+        <div class="body-text">A zine resource created for survivors of sexual assault in North Carolina as an
+          alternative to traditional resources</div>
+        <image class="project-header-image" alt="a photo featuring the front of a zine I created named S.A.N.E. and S.A.F.E." src="../assets/images/zine-preview.png">
       </div>
 
       <!-- PROJECT DETAILS -->
       <div id="project-details">
         <div class="subheader-text">Project Details</div>
         <div class="project-details-content">
-          <div class="body-text">This project focused on the forensic medical exam experience for survivors in North Carolina and how I could create a tool that might help to make that process less retraumatizing and more accessible. I aimed to create a toolkit that was easy to understand, comprehensive, not biased toward any particular choice, and was more engaging than existing resources, such as medical brochures. This was a very research heavy project that I only had the semester to complete, so the form that it ultimately took was one that fit within my specified criteria and constraints.</div>
-          <div class="body-text">The final product, pictured above and below, is a zine that passed many variations but was ultimately designed using Procreate and Adobe Illustrator and was printed on newsprint for approachability and ease of access offline. An online partner tool is something that I continue to work on in my spare time. You can find my full project paper <a href="https://docs.google.com/document/d/16j_Bsw8PAuaJE3ahnyl2eXMuIok6aQFM/edit">HERE</a> for more information about my process and design choices.</div>
+          <div class="body-text">This project focused on the forensic medical exam experience for survivors in North
+            Carolina and how I could create a tool that might help to make that process less retraumatizing and more
+            accessible. I aimed to create a toolkit that was easy to understand, comprehensive, not biased toward any
+            particular choice, and was more engaging than existing resources, such as medical brochures. This was a very
+            research heavy project that I only had the semester to complete, so the form that it ultimately took was one
+            that fit within my specified criteria and constraints.</div>
+          <div class="body-text">The final product, pictured above and below, is a zine that passed many variations but
+            was ultimately designed using Procreate and Adobe Illustrator and was printed on newsprint for
+            approachability and ease of access offline. An online partner tool is something that I continue to work on
+            in my spare time. You can find my full project paper <a
+              href="https://docs.google.com/document/d/16j_Bsw8PAuaJE3ahnyl2eXMuIok6aQFM/edit" title="my paper documenting this project">HERE</a> for more
+            information about my process and design choices.</div>
         </div>
       </div>
 
       <!-- IMAGE GALLERY -->
       <div id="project-gallery">
         <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">            
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/open-zine-1.png" class="gallery-image">
-              <span class="image-caption"><i>Pages 2 and 3 of the finalized zine.</i></span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/open-zine-2.png" class="gallery-image">
-              <span class="image-caption"><i>Pages 4 and 5 of the finalized zine.</i></span>
-            </div>
-            <div>
-              <object data="/assets/files/ZinePrintLayout.pdf" width="700" height="438"></object>
-              <span class="image-caption"><i>PDF of the final copy, organized for print.</i></span>
-            </div>
+        <div class="project-gallery-content">
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/open-zine-1.png" class="gallery-image">
+            <span class="image-caption"><i>Pages 2 and 3 of the finalized zine.</i></span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/open-zine-2.png" class="gallery-image">
+            <span class="image-caption"><i>Pages 4 and 5 of the finalized zine.</i></span>
+          </div>
+          <div>
+            <object data="/assets/files/ZinePrintLayout.pdf" width="700" height="438"></object>
+            <span class="image-caption"><i>PDF of the final copy, organized for print.</i></span>
+          </div>
         </div>
       </div>
     </div>
+</main>
 
-    <!-- FOOTER -->
-    <div id="footer">
-      <div class="footer.text">Created and hosted by me.</div>
-      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/">
-        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
-      </a>
-      <a class="icon-link" target="_blank" href="https://github.com/charogerz">
-        <image src="../assets/icons/github.svg" class="footer-icon"/>
-      </a>
-      <a class="icon-link" href="mailto:charogerz@gmail.com">
-        <image src="../assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
+<!-- FOOTER -->
+<div id="footer">
+  <div class="footer.text">Created and hosted by me.</div>
+  <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/">
+    <image src="../assets/icons/linkedin.svg" class="footer-icon" />
+  </a>
+  <a class="icon-link" target="_blank" href="https://github.com/charogerz">
+    <image src="../assets/icons/github.svg" class="footer-icon" />
+  </a>
+  <a class="icon-link" href="mailto:charogerz@gmail.com">
+    <image src="../assets/icons/mail.svg" class="footer-icon" />
+  </a>
+</div>
 
-	</body>
+</body>
+
 </html>

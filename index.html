@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+<main>
+
+  <head>
+    <meta charset="utf-8">
 
     <link rel="icon" href="./assets/images/pixel-headshot.png" />
-		<title>Charlotte Rogers | Design</title>
+    <title>Charlotte Rogers | Design</title>
     <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/utilities.css">
 
-		<script defer src="./js/script.js"></script>
-	</head>
-	<body>
+    <script defer src="./js/script.js"></script>
+  </head>
+
+  <body>
     <!-- NAVBAR -->
     <div class="navbar" id="navbar">
       <a class="nav-title-link" href="./index.html">
@@ -30,16 +33,16 @@
 
     <script>
       var prevScrollPos = window.pageYOffset;
-      window.onscroll = function() {
+      window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollPos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-         } else {
-            document.getElementById("navbar").style.top = "-95px";
-         }
-         prevScrollPos = currentScrollPos;
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-95px";
+        }
+        prevScrollPos = currentScrollPos;
       };
-   </script>
+    </script>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
@@ -47,19 +50,22 @@
       <!-- PORTFOLIO HEADER -->
       <div id="portfolio-header">
         <div id="portfolio-header-image-container">
-          <img src="./assets/images/PersonalLogo.png" alt="Logo with initials CR in the center and the words 'Charlotte Rogers Design and Communication' around that" class="portfolio-header-image">
+          <img src="./assets/images/PersonalLogo.png"
+            alt="Logo with initials CR in the center and the words 'Charlotte Rogers Design and Communication' around that"
+            class="portfolio-header-image">
         </div>
 
         <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">Welcome!<br>I'm Charlotte Rogers.</span>
-              <br><br>
-              <div class="body-text">I am a user interface designer and creative technologist based in Brooklyn, NY.</div>
-            </div>
-            <a class="button" id="my-work-link">
-              <span class="button-text">Check out my work</span> 
-              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Check out my work'" class="right-arrow-icon"/>
-            </a>
+          <div class="header-text">
+            <span class="main-title">Welcome!<br>I'm Charlotte Rogers.</span>
+            <br><br>
+            <div class="body-text">I am a user interface designer and creative technologist based in Brooklyn, NY.</div>
+          </div>
+          <a class="button" id="my-work-link">
+            <span class="button-text">Check out my work</span>
+            <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Check out my work'"
+              class="right-arrow-icon" />
+          </a>
         </div>
       </div>
 
@@ -67,7 +73,13 @@
       <div id="about-section">
         <span class="subheader-text">About Me</span>
         <div class="about-section-content">
-          <div class="body-text">I am a second year graduate student at Parsons School of Design in NYC studying Design and Technology. I graduated in 2022 from NC State University with a B.S. in Graphic Communications and a minor in Social Work. My designs intentionally use the Design Justice framework to aim for the intersection of beauty and function and to meet the needs and desires of my audience. This is where true accessibility is found. No work is perfect but I am proud of what I have created and the projects I have supported and completed. I also look forward to the future and what I am able to accomplish with more experience and learning opportunities.</div>
+          <div class="body-text">I am a second year graduate student at Parsons School of Design in NYC studying Design
+            and Technology. I graduated in 2022 from NC State University with a B.S. in Graphic Communications and a
+            minor in Social Work. My designs intentionally use the Design Justice framework to aim for the intersection
+            of beauty and function and to meet the needs and desires of my audience. This is where true accessibility is
+            found. No work is perfect but I am proud of what I have created and the projects I have supported and
+            completed. I also look forward to the future and what I am able to accomplish with more experience and
+            learning opportunities.</div>
         </div>
       </div>
 
@@ -77,69 +89,90 @@
 
         <div class="projects-container">
           <div class="project-card">
-            <img src="./assets/images/zine-preview.png" alt="a photo featuring the front of a zine I created named S.A.N.E. and S.A.F.E." class="project-image">
+            <img src="./assets/images/zine-preview.png"
+              alt="a photo featuring the front of a zine I created named S.A.N.E. and S.A.F.E." class="project-image">
             <div class="project-card-text-container">
               <div class="subheader-text project-title"><i>S.A.N.E. and S.A.F.E.</i> zine</div>
-              <div class="body-text project-card-text">A zine resource created for survivors of sexual assault in North Carolina</div>
+              <div class="body-text project-card-text">A zine resource created for survivors of sexual assault in North
+                Carolina</div>
             </div>
             <a class="button" href="./project-pages/SANEandSAFE.html">
               <span class="button-text">Explore Here</span>
-              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'" class="right-arrow-icon"/>
+              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'"
+                class="right-arrow-icon" />
             </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/MisinfoMadness.png" alt="illustration of two people talking in front of purple coloring with the label 'Misinfo Madness' in the bottom lefthand corner" class="project-image">
+            <img src="./assets/images/MisinfoMadness.png"
+              alt="illustration of two people talking in front of purple coloring with the label 'Misinfo Madness' in the bottom lefthand corner"
+              class="project-image">
             <div class="project-card-text-container">
               <div class="subheader-text project-title">Misinfo Madness</div>
-              <div class="body-text project-card-text">A multiplayer card game where you and your team separate the misinformation from the truth about current events</div>
+              <div class="body-text project-card-text">A multiplayer card game where you and your team separate the
+                misinformation from the truth about current events</div>
             </div>
             <a class="button" href="./project-pages/MisinfoMadness.html">
               <span class="button-text">Explore Here</span>
-              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'" class="right-arrow-icon"/>
+              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'"
+                class="right-arrow-icon" />
             </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/data-portrait.png" alt="three gray-toned blobby shapes stacked on one another with a thin vertical line coming from underneath the center to the top" class="project-image">
+            <img src="./assets/images/data-portrait.png"
+              alt="three gray-toned blobby shapes stacked on one another with a thin vertical line coming from underneath the center to the top"
+              class="project-image">
             <div class="project-card-text-container">
               <div class="subheader-text project-title">Personal Data Portrait</div>
-              <div class="body-text project-card-text">A coding project aimed to document and visualize a piece of my personally tracked data</div>
+              <div class="body-text project-card-text">A coding project aimed to document and visualize a piece of my
+                personally tracked data</div>
             </div>
             <a class="button" href="./project-pages/DataPortrait.html">
               <span class="button-text">Explore Here</span>
-              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'" class="right-arrow-icon"/>
+              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'"
+                class="right-arrow-icon" />
             </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/KnoxWebDataSq.png" alt="a brand logo that says 'Knox Web & Data' in bold on the bottom and has an outline of the state of Tennessee filled in with circuit board lines above the text" class="project-image">
+            <img src="./assets/images/KnoxWebDataSq.png"
+              alt="a brand logo that says 'Knox Web & Data' in bold on the bottom and has an outline of the state of Tennessee filled in with circuit board lines above the text"
+              class="project-image">
             <div class="project-card-text-container">
               <div class="subheader-text project-title">Client Logo</div>
               <div class="body-text project-card-text">A logo designed for client Knox Web & Data</div>
             </div>
             <a class="button" href="./project-pages/KnoxWebData.html">
               <span class="button-text">Explore Here</span>
-              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'" class="right-arrow-icon"/>
+              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'"
+                class="right-arrow-icon" />
             </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/creativecalculatorstill.png" alt="screenshot of the text that results from the Color Calculator code reading 'Welcome to the Color Calc!'" class="project-image">
+            <img src="./assets/images/creativecalculatorstill.png"
+              alt="screenshot of the text that results from the Color Calculator code reading 'Welcome to the Color Calc!'"
+              class="project-image">
             <div class="project-card-text-container">
               <div class="subheader-text project-title">Color Calculator</div>
-              <div class="body-text project-card-text">A creative calculator mixing and subtracting color using python</div>
+              <div class="body-text project-card-text">A creative calculator mixing and subtracting color using python
+              </div>
             </div>
             <a class="button" href="./project-pages/ColorCalc.html">
               <span class="button-text">Explore Here</span>
-              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'" class="right-arrow-icon"/>
+              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'"
+                class="right-arrow-icon" />
             </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/collage.png" alt="a collage of static works featured in this folder" class="project-image">
+            <img src="./assets/images/collage.png" alt="a collage of static works featured in this folder"
+              class="project-image">
             <div class="project-card-text-container">
               <div class="subheader-text project-title">Other Past Designs</div>
-              <div class="body-text project-card-text">Other singular pieces of mine, both dynamic and static, designed for various clients and academic projects</div>
+              <div class="body-text project-card-text">Other singular pieces of mine, both dynamic and static, designed
+                for various clients and academic projects</div>
             </div>
             <a class="button" href="./project-pages/other.html">
               <span class="button-text">Explore Here</span>
-              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'" class="right-arrow-icon"/>
+              <image src="./assets/icons/arrow-right.svg" alt="right arrow button that says 'Explore Here'"
+                class="right-arrow-icon" />
             </a>
           </div>
         </div>
@@ -149,16 +182,20 @@
     <!-- FOOTER -->
     <div id="footer">
       <div class="footer.text">Created and hosted by me.</div>
-      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/" title="my LinkedIn profile">
-        <image src="./assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon"/>
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/"
+        title="my LinkedIn profile">
+        <image src="./assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon" />
       </a>
       <a class="icon-link" target="_blank" href="https://github.com/charogerz" title="my GitHub profile">
-        <image src="./assets/icons/github.svg" alt="GitHub logo" class="footer-icon"/>
+        <image src="./assets/icons/github.svg" alt="GitHub logo" class="footer-icon" />
       </a>
-      <a class="icon-link" href="mailto:charogerz@gmail.com" title="a link that email me directly at charogerz@gmail.com">
-        <image src="./assets/icons/mail.svg" alt="email icon" class="footer-icon"/>
+      <a class="icon-link" href="mailto:charogerz@gmail.com"
+        title="a link that email me directly at charogerz@gmail.com">
+        <image src="./assets/icons/mail.svg" alt="email icon" class="footer-icon" />
       </a>
     </div>
 
-	</body>
+  </body>
+</main>
+
 </html>

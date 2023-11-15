@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-     <link rel="icon" href="../assets/images/pixel-headshot.png" />
-     <title>Charlotte Rogers | Design</title>
-    <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<header>
+  <meta charset="utf-8">
+  <link rel="icon" href="../assets/images/pixel-headshot.png" />
+  <title>Charlotte Rogers | Design</title>
+  <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
 
-		<script defer src="../js/script.js"></script>
-	</head>
-	<body>
+  <script defer src="../js/script.js"></script>
+</header>
+<main>
+
+  <body>
 
     <!-- NAVBAR -->
     <div class="navbar">
@@ -30,73 +32,92 @@
 
     <script>
       var prevScrollPos = window.pageYOffset;
-      window.onscroll = function() {
+      window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollPos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-         } else {
-            document.getElementById("navbar").style.top = "-95px";
-         }
-         prevScrollPos = currentScrollPos;
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-95px";
+        }
+        prevScrollPos = currentScrollPos;
       };
-   </script>
+    </script>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
       <!-- PROJECT HEADER -->
-      <div id="project-header">          
-        <div class="main-title">Color Calculator</div>
+      <div id="project-header">
+        <h1 class="main-title">Color Calculator</h1>
         <div class="body-text">A brief exploration of how to code an unconventional calculator in python</div>
-        <image class="project-header-image" src="../assets/images/creativecalc.gif" alt="the Color Calc running in a loop of various combinations in gif form">
+        <image class="project-header-image" src="../assets/images/creativecalc.gif"
+          alt="the Color Calc running in a loop of various combinations in gif form">
       </div>
 
       <!-- PROJECT DETAILS -->
       <div id="project-details">
         <div class="subheader-text">Project Details</div>
         <div class="project-details-content">
-          <div class="body-text">This was an early python project of mine that I enjoyed. I was tasked with creating a "creative calculator" and decided, as an artist, to encode colors into these set of possible equations.</div>
-          <div class="body-text">You can find the code for this project on my GitHub <a href="https://github.com/charogerz/python-projects/tree/main/Creative%20Calculator">HERE</a>.</div>
+          <div class="body-text">This was an early python project of mine that I enjoyed. I was tasked with creating a
+            "creative calculator" and decided, as an artist, to encode colors into these set of possible equations.
+          </div>
+          <div class="body-text">You can find the code for this project on my GitHub <a
+              href="https://github.com/charogerz/python-projects/tree/main/Creative%20Calculator">HERE</a>.</div>
         </div>
       </div>
 
       <!-- IMAGE GALLERY -->
       <div id="project-gallery">
         <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">            
-            <div class="gallery-image-container">
-              <img src="../assets/images/calccodecapture.png" alt="A snippet of code from this project highlighting the introductory and error messages created for this calculator" class="gallery-image">
-              <span class="image-caption"><i>A snippet of code from this project highlighting the introductory and error messages I created for this calculator.</i></span>
-            </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/CodeNotes1.png" alt="the comment in the code that reads 'Conditional statement: If user entered plus, perform an addition'" class="gallery-image">
-              <span class="image-caption"><i>First, the code is outlined for a color addition process. Color conditionals are set up for primary colors being added to one another in every combination.</i></span>
-            </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/CodeNotes2.png" alt="the comment in the code that reads 'Else if the user entered minus, perform a subtraction'" class="gallery-image">
-              <span class="image-caption"><i>Similarly, the code then checks for a color subtraction task. Color conditionals are set up for every type of primary color being subtracted from its relative secondary color.</i></span>
-            </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/CodeNotes3.png" alt="the comment in the code that reads 'Else notify the user of error using invalid function'" class="gallery-image">
-              <span class="image-caption"><i>Finally, there is a section of the code outlining what happens given a user's input error.</i></span>
-            </div>
+        <div class="project-gallery-content">
+          <div class="gallery-image-container">
+            <img src="../assets/images/calccodecapture.png"
+              alt="A snippet of code from this project highlighting the introductory and error messages created for this calculator"
+              class="gallery-image">
+            <span class="image-caption"><i>A snippet of code from this project highlighting the introductory and error
+                messages I created for this calculator.</i></span>
+          </div>
+          <div class="gallery-image-container">
+            <img src="../assets/images/CodeNotes1.png"
+              alt="the comment in the code that reads 'Conditional statement: If user entered plus, perform an addition'"
+              class="gallery-image">
+            <span class="image-caption"><i>First, the code is outlined for a color addition process. Color conditionals
+                are set up for primary colors being added to one another in every combination.</i></span>
+          </div>
+          <div class="gallery-image-container">
+            <img src="../assets/images/CodeNotes2.png"
+              alt="the comment in the code that reads 'Else if the user entered minus, perform a subtraction'"
+              class="gallery-image">
+            <span class="image-caption"><i>Similarly, the code then checks for a color subtraction task. Color
+                conditionals are set up for every type of primary color being subtracted from its relative secondary
+                color.</i></span>
+          </div>
+          <div class="gallery-image-container">
+            <img src="../assets/images/CodeNotes3.png"
+              alt="the comment in the code that reads 'Else notify the user of error using invalid function'"
+              class="gallery-image">
+            <span class="image-caption"><i>Finally, there is a section of the code outlining what happens given a user's
+                input error.</i></span>
+          </div>
         </div>
       </div>
     </div>
+</main>
 
-    <!-- FOOTER -->
-    <div id="footer">
-      <div class="footer.text">Created and hosted by me.</div>
-      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/">
-        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
-      </a>
-      <a class="icon-link" target="_blank" href="https://github.com/charogerz">
-        <image src="../assets/icons/github.svg" class="footer-icon"/>
-      </a>
-      <a class="icon-link" href="mailto:charogerz@gmail.com">
-        <image src="../assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer.text">Created and hosted by me.</div>
+  <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/" title="my LinkedIn profile">
+    <image src="../assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" target="_blank" href="https://github.com/charogerz" title="my GitHub profile">
+    <image src="../assets/icons/github.svg" alt="GitHub logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" href="mailto:charogerz@gmail.com" title="a link that email me directly at charogerz@gmail.com">
+    <image src="../assets/icons/mail.svg" alt="email icon" class="footer-icon" />
+  </a>
+</footer>
 
-	</body>
+</body>
+
 </html>

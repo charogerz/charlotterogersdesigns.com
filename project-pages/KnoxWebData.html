@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-     <link rel="icon" href="../assets/images/pixel-headshot.png" />
-     <title>Charlotte Rogers | Design</title>
-    <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<header>
+  <meta charset="utf-8">
+  <link rel="icon" href="../assets/images/pixel-headshot.png" />
+  <title>Charlotte Rogers | Design</title>
+  <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
 
-		<script defer src="../js/script.js"></script>
-	</head>
-	<body>
+  <script defer src="../js/script.js"></script>
+</header>
+<main>
+
+  <body>
 
     <!-- NAVBAR -->
     <div class="navbar">
@@ -30,22 +32,22 @@
 
     <script>
       var prevScrollPos = window.pageYOffset;
-      window.onscroll = function() {
+      window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollPos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-         } else {
-            document.getElementById("navbar").style.top = "-95px";
-         }
-         prevScrollPos = currentScrollPos;
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-95px";
+        }
+        prevScrollPos = currentScrollPos;
       };
-   </script>
+    </script>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
       <!-- PROJECT HEADER -->
-      <div id="project-header">          
+      <div id="project-header">
         <div class="main-title">Logo for Knox Web & Data</div>
         <div class="body-text">Logo designed for a small business based in Knoxville, Tennessee</div>
         <image class="project-header-image" src="../assets/images/LogoDynamic.gif">
@@ -55,40 +57,45 @@
       <div id="project-details">
         <div class="subheader-text">Project Details</div>
         <div class="project-details-content">
-          <div class="body-text">I worked with client Knox Web & Data on a logo for their website and potential printed documents. They requested this logo be related to Tennessee and have some digital feel to it. After a few mock-ups and iterations, we came up with something that fit this description and became the focus of their brand. They have this logo featured in both black and white in different places.</div>
-          <div class="body-text">You can see the logo active and dynamic on their website <a href="https://knoxwebdatasolutions.com/">HERE</a>.</div>
+          <div class="body-text">I worked with client Knox Web & Data on a logo for their website and potential printed
+            documents. They requested this logo be related to Tennessee and have some digital feel to it. After a few
+            mock-ups and iterations, we came up with something that fit this description and became the focus of their
+            brand. They have this logo featured in both black and white in different places.</div>
+          <div class="body-text">You can see the logo active and dynamic on their website <a
+              href="https://knoxwebdatasolutions.com/">HERE</a>.</div>
         </div>
       </div>
 
       <!-- IMAGE GALLERY -->
       <div id="project-gallery">
         <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">            
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/KnoxWebDataLogo.png" class="gallery-image">
-              <span class="image-caption"><i>Final logo in black</i></span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/KnoxWebDataLogoWhite.png" class="gallery-image">
-              <span class="image-caption"><i>Final logo in white</i></span>
-            </div>
+        <div class="project-gallery-content">
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/KnoxWebDataLogo.png" class="gallery-image">
+            <span class="image-caption"><i>Final logo in black</i></span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/KnoxWebDataLogoWhite.png" class="gallery-image">
+            <span class="image-caption"><i>Final logo in white</i></span>
+          </div>
         </div>
       </div>
     </div>
+</main>
 
-    <!-- FOOTER -->
-    <div id="footer">
-      <div class="footer.text">Created and hosted by me.</div>
-      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/">
-        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
-      </a>
-      <a class="icon-link" target="_blank" href="https://github.com/charogerz">
-        <image src="../assets/icons/github.svg" class="footer-icon"/>
-      </a>
-      <a class="icon-link" href="mailto:charogerz@gmail.com">
-        <image src="../assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer.text">Created and hosted by me.</div>
+  <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/" title="my LinkedIn profile">
+    <image src="../assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" target="_blank" href="https://github.com/charogerz" title="my GitHub profile">
+    <image src="../assets/icons/github.svg" alt="GitHub logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" href="mailto:charogerz@gmail.com" title="a link that email me directly at charogerz@gmail.com">
+    <image src="../assets/icons/mail.svg" alt="email icon" class="footer-icon" />
+  </a>
+</footer>
+</body>
 
-	</body>
 </html>

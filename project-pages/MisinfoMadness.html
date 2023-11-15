@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-	<header>
-		<meta charset="utf-8">
-     <link rel="icon" href="../assets/images/pixel-headshot.png" />
-     <title>Charlotte Rogers | Design</title>
-    <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<header>
+  <meta charset="utf-8">
+  <link rel="icon" href="../assets/images/pixel-headshot.png" />
+  <title>Charlotte Rogers | Design</title>
+  <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
 
-		<script defer src="../js/script.js"></script>
-	</header>
-	<body>
-    
+  <script defer src="../js/script.js"></script>
+</header>
+<main>
+
+  <body>
+
     <!-- NAVBAR -->
     <div class="navbar">
       <a class="nav-title-link" href="../index.html">
@@ -30,69 +32,91 @@
 
     <script>
       var prevScrollPos = window.pageYOffset;
-      window.onscroll = function() {
+      window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollPos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-         } else {
-            document.getElementById("navbar").style.top = "-95px";
-         }
-         prevScrollPos = currentScrollPos;
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-95px";
+        }
+        prevScrollPos = currentScrollPos;
       };
-   </script>
+    </script>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
       <!-- PROJECT HEADER -->
       <div id="project-header">
-        <div class="main-title">Misinfo Madness</div>
-        <div class="body-text">A multiplayer card game where you and your team separate the misinformation from the truth about current events</div>
-        <image class="project-header-image" alt="illustration of two people talking in front of purple coloring with the label 'Misinfo Madness' in the bottom lefthand corner" src="../assets/images/MisinfoMadness.png">
+        <h1 class="main-title">Misinfo Madness</h1>
+        <div class="body-text">A multiplayer card game where you and your team separate the misinformation from the
+          truth about current events</div>
+        <image class="project-header-image"
+          alt="illustration of two people talking in front of purple coloring with the label 'Misinfo Madness' in the bottom lefthand corner"
+          src="../assets/images/MisinfoMadness.png">
       </div>
 
       <!-- PROJECT DETAILS -->
       <div id="project-details">
         <div class="subheader-text">Project Details</div>
         <div class="project-details-content">
-          <div class="body-text">My team and I were tasked with creating a product that would serve to educate users about misinformation online. We decided to use our combined skills to create a team-based card game to help players become better at idetifying real vs. fake content online. I focused my design and research skills on organizing headlines, the design of the actual cards, and user testing with peers. While we never got the time to create an officially printed version of this game, you will find examples of the cards used in playtests below.</div>
-          <div class="body-text">You can find a slidedeck describing gameplay rules and further details about our creation process <a href="https://docs.google.com/presentation/d/1FkrHkxExCZLbGcFGzUmM4Cr0PJyTH1db/edit?usp=sharing&ouid=109846742294654888421&rtpof=true&sd=true">HERE</a>.</div>
+          <div class="body-text">My team and I were tasked with creating a product that would serve to educate users
+            about misinformation online. We decided to use our combined skills to create a team-based card game to help
+            players become better at idetifying real vs. fake content online. I focused my design and research skills on
+            organizing headlines, the design of the actual cards, and user testing with peers. While we never got the
+            time to create an officially printed version of this game, you will find examples of the cards used in
+            playtests below.</div>
+          <div class="body-text">You can find a slidedeck describing gameplay rules and further details about our
+            creation process <a
+              href="https://docs.google.com/presentation/d/1FkrHkxExCZLbGcFGzUmM4Cr0PJyTH1db/edit?usp=sharing&ouid=109846742294654888421&rtpof=true&sd=true">HERE</a>.
+          </div>
         </div>
       </div>
 
       <!-- IMAGE GALLERY -->
       <div id="project-gallery">
         <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">            
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/falsecard.png" alt="an example of a false card from the set, the false fact pictured to the left and the correction and answer being pictured to the right" class="gallery-image">
-              <span class="image-caption"><i>An example of a false card within the "Climate Change" category of the game. The headline is pictured and transcribed on the front (left) and the answer to whether it is true or false and further explanation is on the back (right).</i></span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/truecard.png" alt="an example of a true card from the set, the true fact pictured to the left and the confirmation and further information being pictured to the right" class="gallery-image">
-              <span class="image-caption"><i>An example of a true card within the "Health & Wellness" category of the game.</i></span>
-            </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/mockupplan.png" alt="mock-up images of the card game on a box, on a cropped webpage, and finally featured on the New York Times as it is pulled up a laptop screen" class="gallery-image">
-              <span class="image-caption"><i>Mockup of the game's box and plan for production over time.</i></span>
-            </div>
+        <div class="project-gallery-content">
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/falsecard.png"
+              alt="an example of a false card from the set, the false fact pictured to the left and the correction and answer being pictured to the right"
+              class="gallery-image">
+            <span class="image-caption"><i>An example of a false card within the "Climate Change" category of the game.
+                The headline is pictured and transcribed on the front (left) and the answer to whether it is true or
+                false and further explanation is on the back (right).</i></span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/truecard.png"
+              alt="an example of a true card from the set, the true fact pictured to the left and the confirmation and further information being pictured to the right"
+              class="gallery-image">
+            <span class="image-caption"><i>An example of a true card within the "Health & Wellness" category of the
+                game.</i></span>
+          </div>
+          <div class="gallery-image-container">
+            <img src="../assets/images/mockupplan.png"
+              alt="mock-up images of the card game on a box, on a cropped webpage, and finally featured on the New York Times as it is pulled up a laptop screen"
+              class="gallery-image">
+            <span class="image-caption"><i>Mockup of the game's box and plan for production over time.</i></span>
+          </div>
         </div>
       </div>
     </div>
+</main>
 
-    <!-- FOOTER -->
-    <footer id="footer">
-      <div class="footer.text">Created and hosted by me.</div>
-      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/" title="my LinkedIn profile">
-        <image src="../assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon" />
-      </a>
-      <a class="icon-link" target="_blank" href="https://github.com/charogerz" title="my GitHub profile">
-        <image src="../assets/icons/github.svg" alt="GitHub logo" class="footer-icon" />
-      </a>
-      <a class="icon-link" href="mailto:charogerz@gmail.com" title="a link that email me directly at charogerz@gmail.com">
-        <image src="../assets/icons/mail.svg" alt="email icon" class="footer-icon" />
-      </a>
-    </footer>
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer.text">Created and hosted by me.</div>
+  <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/" title="my LinkedIn profile">
+    <image src="../assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" target="_blank" href="https://github.com/charogerz" title="my GitHub profile">
+    <image src="../assets/icons/github.svg" alt="GitHub logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" href="mailto:charogerz@gmail.com" title="a link that email me directly at charogerz@gmail.com">
+    <image src="../assets/icons/mail.svg" alt="email icon" class="footer-icon" />
+  </a>
+</footer>
 
-	</body>
+</body>
+
 </html>

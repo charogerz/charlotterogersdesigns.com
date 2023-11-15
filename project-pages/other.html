@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-     <link rel="icon" href="../assets/images/pixel-headshot.png" />
-     <title>Charlotte Rogers | Design</title>
-    <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
+<header>
+  <meta charset="utf-8">
+  <link rel="icon" href="../assets/images/pixel-headshot.png" />
+  <title>Charlotte Rogers | Design</title>
+  <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<script defer src="../js/script.js"></script>
-	</head>
-	<body>
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+
+  <script defer src="../js/script.js"></script>
+</header>
+<main>
+
+  <body>
 
     <!-- NAVBAR -->
     <div class="navbar">
@@ -30,75 +33,102 @@
 
     <script>
       var prevScrollPos = window.pageYOffset;
-      window.onscroll = function() {
+      window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollPos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-         } else {
-            document.getElementById("navbar").style.top = "-95px";
-         }
-         prevScrollPos = currentScrollPos;
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-95px";
+        }
+        prevScrollPos = currentScrollPos;
       };
-   </script>
+    </script>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
       <!-- PROJECT HEADER -->
-      <div id="project-header">          
-        <div class="main-title">Other Past Designs</div>
-        <div class="body-text">A collection of other singular pieces of mine, designed for various clients and academic projects through the years</div>
+      <div id="project-header">
+        <h1 class="main-title">Other Past Designs</h1>
+        <div class="body-text">A collection of other singular pieces of mine, designed for various clients and academic
+          projects through the years</div>
       </div>
 
       <!-- IMAGE GALLERY -->
       <div id="project-gallery">
         <div class="subheader-text">Gallery</div>
-        <div class="project-gallery-content">            
-            <div class="gallery-image-container half-width" half>
-              <img src="../assets/images/invitation.png" class="gallery-image">
-              <span class="image-caption"><i>An invitation to be printed and sent out in the boxes sent to attendees of the 2021 NCCASA Biennial Conference.</i></span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/labels.png" class="gallery-image">
-              <span class="image-caption"><i>This set of tea labels was originally designed by my team and I for an academic project focused on product design and marketing. I was the lead label designer for my team after other members took on the logo and copy.</i></span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/monster.png" class="gallery-image">
-              <span class="image-caption"><i>A character I designed in Procreate while volunteering for Breaking Taboo. I was asked to prioritized suicide awareness colors in the design for use in their shop.</i></span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/ltai-intro.png" class="gallery-image">
-              <span class="image-caption"><i>The first post in a series titled </i>Let's Talk About It<i> that I marketed for NCCASA on their Twitter and Instagram pages.</i></span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images//conference-flyer.png" class="gallery-image">
-              <span class="image-caption"><i>A flyer created in Adobe Illustrator for NCCASA's Biennial Conference in 2021 to promote a workshop led by the founders of Engage Together and Justice U.</i></span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/event-ad.png" class="gallery-image">
-              <span class="image-caption"><i>An infographic I designed for NC State's Women's Center and their social media pages.</i></span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <iframe src="https://editor.p5js.org/rogec540/full/i6oWGMEpp" width="450" height="450"></iframe>
-              <span class="image-caption"><i>A creative clock face I created with JavaScript using the popular online editor p5.js. It displays the time as it is currently listed on your device and uses squares to contrast with the typical expectation of time being represented by rounded shapes.</i></span>
-            </div>
+        <div class="project-gallery-content">
+          <div class="gallery-image-container half-width" half>
+            <img src="../assets/images/invitation.png"
+              alt="invitation to the happy hour for NCCASA's Biennial Conference in 2021 that has been designed in Spanish"
+              class="gallery-image">
+            <span class="image-caption"><i>An invitation to be printed and sent out in the boxes sent to attendees of
+                the
+                2021 NCCASA Biennial Conference.</i></span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/labels.png"
+              alt="a series of two bottle labels designed for the fictional tea brand Natural Nectar. The top label is for green tea and the bottom one is for chamomile tea"
+              class="gallery-image">
+            <span class="image-caption"><i>This set of tea labels was originally designed by my team and I for an
+                academic
+                project focused on product design and marketing. I was the lead label designer for my team after other
+                members took on the logo and copy.</i></span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/monster.png"
+              alt="an illustrated green monster, very cute, with one eye, a crooked smile, a teal and purple mohawk, and yellow boots on"
+              class="gallery-image">
+            <span class="image-caption"><i>A character I designed in Procreate while volunteering for Breaking Taboo. I
+                was asked to prioritized suicide awareness colors in the design for use in their shop.</i></span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/ltai-intro.png"
+              alt="a square graphic design image with information for the Let's Talk About It campaign that NCCASA ran in 2021. The logo is at the top and the hashtags SAAM, Let's Talk About It, and Online Safety are featured at the bottom."
+              class="gallery-image">
+            <span class="image-caption"><i>The first post in a series titled </i>Let's Talk About It<i> that I marketed
+                for NCCASA on their Twitter and Instagram pages.</i></span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images//conference-flyer.png"
+              alt="a poster for Justice U's End Human Trafficking workshop from the 2021 NCCASA Biennial Conference, featuring Ashleigh Chapman and Alana Flora, the date, and time, as well as the conference's logo at the bottom"
+              class="gallery-image">
+            <span class="image-caption"><i>A flyer created in Adobe Illustrator for NCCASA's Biennial Conference in 2021
+                to promote a workshop led by the founders of Engage Together and Justice U.</i></span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/event-ad.png" alt="an event infographic completed for NC State's Women's Center before their Clothesline Project event about what the Clothesline Project is" class="gallery-image">
+            <span class="image-caption"><i>An infographic I designed for NC State's Women's Center and their social
+                media
+                pages.</i></span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <iframe src="https://editor.p5js.org/rogec540/full/i6oWGMEpp" width="450" height="450"></iframe>
+            <span class="image-caption"><i>A creative clock face I created with JavaScript using the popular online
+                editor
+                p5.js. It displays the time as it is currently listed on your device and uses squares to contrast with
+                the
+                typical expectation of time being represented by rounded shapes.</i></span>
+          </div>
         </div>
       </div>
     </div>
+</main>
 
-    <!-- FOOTER -->
-    <div id="footer">
-      <div class="footer.text">Created and hosted by me.</div>
-      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/">
-        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
-      </a>
-      <a class="icon-link" target="_blank" href="https://github.com/charogerz">
-        <image src="../assets/icons/github.svg" class="footer-icon"/>
-      </a>
-      <a class="icon-link" href="mailto:charogerz@gmail.com">
-        <image src="../assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer.text">Created and hosted by me.</div>
+  <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/" title="my LinkedIn profile">
+    <image src="../assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" target="_blank" href="https://github.com/charogerz" title="my GitHub profile">
+    <image src="../assets/icons/github.svg" alt="GitHub logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" href="mailto:charogerz@gmail.com" title="a link that email me directly at charogerz@gmail.com">
+    <image src="../assets/icons/mail.svg" alt="email icon" class="footer-icon" />
+  </a>
+</footer>
 
-	</body>
+</body>
+
 </html>

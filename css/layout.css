@@ -145,6 +145,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 34px;
+  line-height: 2;
 }
 
     /* Project Gallery */

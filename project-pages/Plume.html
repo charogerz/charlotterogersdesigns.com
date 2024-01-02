@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<header>
+		<meta charset="utf-8">
+     <link rel="icon" href="../assets/images/pixel-headshot.png" />
+     <title>Charlotte Rogers | Design</title>
+    <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</header>
+	<main>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Charlotte Rogers | Design Portfolio</span>
+        <a class="button" href="./assets/files/Resume.pdf" download="Resume.pdf">
+          <span class="button-text">Download Resume</span>
+        </a>
+        <a class="button" href="mailto:charogerz@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <script>
+      var prevScrollPos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollPos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+         } else {
+            document.getElementById("navbar").style.top = "-95px";
+         }
+         prevScrollPos = currentScrollPos;
+      };
+   </script>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <h1 class="main-title"><i>Plume: An Unconventional Narrative Project</i></h1>
+        <div class="body-text">An interactive wireframe of a dating app for birds, created for a Dynamic Narratives course, telling the story of a male bird of paradise looking for love</div>
+        <image class="project-header-image" src="../assets/images/zine-preview.png" alt="a photo featuring the front of a zine I created named S.A.N.E. and S.A.F.E.">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details</div>
+        <div class="project-details-content">
+          <div class="body-text">Conceptualized and created alongside my class partner at the time, this project was one where we were tasked with exploring a romantic narrative through a creative medium. We chose to relate to the modern dating experience of using apps, but decided that Greater Birds of Paradise would be our main characters, as their mating ritual is unique to them and would add some intrigue and fun to the project. Viewers are able to work through the narrative from the main character's perspective, working through messages with matches that hit dead ends and messaging the primary love interest themselves after viewing her own profile. See for yourself where the love story ends!</div>
+          <div class="body-text">The final product, pictured above and below, was featured in the Museum of the Moving Image in New York in December of 2023 as part of their Stories in Motion pop-up exhibit. You can view the event page <a href="https://movingimage.org/event/stories-in-motion-popup/">HERE</a>, or experience it for yourself <a href="">HERE</a> through Figma.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">            
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/open-zine-1.png" alt="" class="gallery-image">
+              <span class="image-caption"><i>Caption here.</i></span>
+            </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="footer.text">Created and hosted by me.</div>
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/" title="my LinkedIn profile">
+        <image src="../assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon" />
+      </a>
+      <a class="icon-link" target="_blank" href="https://github.com/charogerz" title="my GitHub profile">
+        <image src="../assets/icons/github.svg" alt="GitHub logo" class="footer-icon" />
+      </a>
+      <a class="icon-link" href="mailto:charogerz@gmail.com" title="a link that email me directly at charogerz@gmail.com">
+        <image src="../assets/icons/mail.svg" alt="email icon" class="footer-icon" />
+      </a>
+    </footer>
+
+	</body>
+</html>

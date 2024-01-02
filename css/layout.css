@@ -132,6 +132,7 @@ body {
 .project-header-image-half {
   width: 75%;
   height:auto;
+  margin: auto;
 }
 
 #project-details {

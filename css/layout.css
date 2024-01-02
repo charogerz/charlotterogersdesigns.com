@@ -130,6 +130,11 @@ body {
   height: auto;
 }
 
+.project-header-image-half {
+  width: 75%;
+  height:auto;
+}
+
 #project-details {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+  <meta charset="utf-8">
+  <link rel="icon" href="../assets/images/pixel-headshot.png" />
+  <title>Charlotte Rogers | Design</title>
+  <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+
+  <script defer src="../js/script.js"></script>
+</header>
+<main>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Charlotte Rogers | Design Portfolio</span>
+        <a class="button" href="./assets/files/Resume.pdf" download="Resume.pdf">
+          <span class="button-text">Download Resume</span>
+        </a>
+        <a class="button" href="mailto:charogerz@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <script>
+      var prevScrollPos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollPos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-95px";
+        }
+        prevScrollPos = currentScrollPos;
+      };
+    </script>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <h1 class="main-title">Our Wave Newsletter</h1>
+        <div class="body-text">A series of emails constructed for and sent out on behalf of the nonprofit organization Our Wave
+        </div>
+        <image class="project-header-image" src="../assets/images/dataportraitgif.gif" alt="a short gif of my project moving, gray and stacked circles growing and distorting as the two sliders in the bottom left are used and with data for each of seven days appearing as the mouse is moved around the center circles">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details</div>
+        <div class="project-details-content">
+          <div class="body-text">I was tasked with personally collecting a week of personal data about myself and
+            representing it however I liked using p5.js, the JavaScript library for creative coding. I took inspiration
+            from peers and other projects online and decided to attempt to visualize my anxious habit of playing with my
+            hair. I tallied how many times each day I played with my hair out of nervous habit and drew it out
+            physically until I had a result I was interested in turning into code. The data points can be seen as the
+            user interacts with space around the center blob. The center blob can be changed using sliders at the bottom
+            and is meant to further visualize how anxiety fluctuates and changes for me throughout the week.</div>
+          <div class="body-text">You can find the active project online <a
+              href="https://editor.p5js.org/rogec540/full/Z0iMqEIAk">HERE</a> and the editor's view, including code
+            used, <a href="https://editor.p5js.org/rogec540/sketches/Z0iMqEIAk">HERE</a>.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/data-portrait.png" alt="three gray-toned blobby shapes stacked on one another with a thin vertical line coming from underneath the center to the top" class="gallery-image">
+            <span class="image-caption"><i>Data points can be spotted across the line extending from the center bubbles.
+                They are uneven to represent the randomness of my anxiety's random spikes.</i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer.text">Created and hosted by me.</div>
+  <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/" title="my LinkedIn profile">
+    <image src="../assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" target="_blank" href="https://github.com/charogerz" title="my GitHub profile">
+    <image src="../assets/icons/github.svg" alt="GitHub logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" href="mailto:charogerz@gmail.com" title="a link that email me directly at charogerz@gmail.com">
+    <image src="../assets/icons/mail.svg" alt="email icon" class="footer-icon" />
+  </a>
+</footer>
+
+</body>
+
+</html>

@@ -130,8 +130,9 @@ body {
 }
 
 .project-header-iframe {
-  text-align: center;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-header-image-half {

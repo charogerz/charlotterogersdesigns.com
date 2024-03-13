@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="https://charlotterogersdesigns.com/assets/icons/pixelfavicon.ico" />
+  <title>Charlotte Rogers | Design</title>
+  <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+
+  <script defer src="../js/script.js"></script>
+</head>
+<main>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Charlotte Rogers | Design Portfolio</span>
+        <a class="button" href="./assets/files/Resume.pdf" download="Resume.pdf">
+          <span class="button-text">Download Resume</span>
+        </a>
+        <a class="button" href="mailto:charogerz@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <script>
+      var prevScrollPos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollPos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-95px";
+        }
+        prevScrollPos = currentScrollPos;
+      };
+    </script>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <h1 class="main-title">An Interactive Visualization of U.S. Aborition Data</h1>
+        <div class="body-text">An experimental data visualization project done in Figma about estimated number of abortions in each state ranked from 2017 to 2023
+        </div>
+        <!-- <image class="project-header-image" src="../assets/images/dataportraitgif.gif" alt="a short gif of my project moving, gray and stacked circles growing and distorting as the two sliders in the bottom left are used and with data for each of seven days appearing as the mouse is moved around the center circles"> -->
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNnR4p5XRBB0nSSIebM97c8%2FDataVizFinal%3Ftype%3Ddesign%26node-id%3D23-50%26t%3Dm2j8lJCjb7cZGDw2-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26mode%3Ddesign" allowfullscreen></iframe>
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details</div>
+        <div class="project-details-content">
+          <div class="body-text">PROJECT DETAILS HERE</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/data-portrait.png" alt="three gray-toned blobby shapes stacked on one another with a thin vertical line coming from underneath the center to the top" class="gallery-image">
+            <span class="image-caption"><i>Data points can be spotted across the line extending from the center bubbles.
+                They are uneven to represent the randomness of my anxiety's random spikes.</i></span>
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/shade-example.png" alt="a closeup of the stacked circles to show the shade opacity fading behind them as it gets further from the center" class="gallery-image">
+            <span class="image-caption"><i>Shading around the center is used to create a dark tone for the viewer and
+                highlight the difference between the outer lines of data and the center bubbles.</i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer.text">Created and hosted by me.</div>
+  <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/" title="my LinkedIn profile">
+    <image src="../assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" target="_blank" href="https://github.com/charogerz" title="my GitHub profile">
+    <image src="../assets/icons/github.svg" alt="GitHub logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" href="mailto:charogerz@gmail.com" title="a link that email me directly at charogerz@gmail.com">
+    <image src="../assets/icons/mail.svg" alt="email icon" class="footer-icon" />
+  </a>
+</footer>
+
+</body>
+
+</html>

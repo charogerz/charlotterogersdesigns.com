@@ -131,6 +131,7 @@ body {
 
 .project-header-iframe {
   text-align: center;
+  display: block;
 }
 
 .project-header-image-half {

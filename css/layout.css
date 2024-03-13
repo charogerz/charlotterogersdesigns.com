@@ -129,6 +129,10 @@ body {
   height: auto;
 }
 
+.project-header-iframe {
+  text-align: center;
+}
+
 .project-header-image-half {
   width: 75%;
   height:auto;

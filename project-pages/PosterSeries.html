@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon"
+    href="https://charlotterogersdesigns.com/assets/icons/pixelfavicon.ico" />
+  <title>Charlotte Rogers | Design</title>
+  <meta name="description" content="A portfolio of designs by Charlotte Rogers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+
+  <script defer src="../js/script.js"></script>
+</head>
+<main>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar" id="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Charlotte Rogers | Design Portfolio</span>
+        <a class="button" href="./assets/files/Resume.pdf" download="Resume.pdf">
+          <span class="button-text">Download Resume</span>
+        </a>
+        <a class="button" href="mailto:charogerz@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <script>
+      var prevScrollPos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollPos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-95px";
+        }
+        prevScrollPos = currentScrollPos;
+      };
+    </script>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <h1 class="main-title">Poster Series</h1>
+        <div class="body-text">A cohesive set of posters designed for a fictitious typography lecture series hosted by
+          The New School</div>
+        <image class="project-header-image-half" src="../assets/images/typepostergroup.png"
+          alt="group poster for a lecture series in red">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details</div>
+        <div class="project-details-content">
+          <div class="body-text">This series of posters, pictured above and below, feature a number of type designers
+            and promote a fictional lecture series hosted by The New School. I was given names, copy, and dates ahead of time. This project was done to focus on
+            typographic hierarchy and font pairings and uses the typeface Oswald with minor design adjustments to
+            characters to make them aesthetically work in this layout. This was done using Adobe Illustrator and Google Font.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/typeindiv1.png"
+              alt="the first poster in the series featuring a large red J"
+              class="gallery-image">
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/typeindiv3.png"
+              alt="the second poster in the series featuring a large red T"
+              class="gallery-image">
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/typeindiv2.png"
+              alt="the third poster in the series featuring a large red E" class="gallery-image">
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/typeindiv4.png"
+              alt="the fourth and last poster in the series featuring a large red C" class="gallery-image">
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer.text">Created and hosted by me.</div>
+  <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/charlotte-rogers/" title="my LinkedIn profile">
+    <image src="../assets/icons/linkedin.svg" alt="LinkedIn logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" target="_blank" href="https://github.com/charogerz" title="my GitHub profile">
+    <image src="../assets/icons/github.svg" alt="GitHub logo" class="footer-icon" />
+  </a>
+  <a class="icon-link" href="mailto:charogerz@gmail.com" title="a link that email me directly at charogerz@gmail.com">
+    <image src="../assets/icons/mail.svg" alt="email icon" class="footer-icon" />
+  </a>
+</footer>
+
+</body>
+
+</html>

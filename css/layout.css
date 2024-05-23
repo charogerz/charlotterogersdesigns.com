@@ -15,7 +15,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+img {
+  border: 1px solid #666;
+}
 
 
 /* Main Page Layout */
